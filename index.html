@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a HTML</title> <!-- Cambia el título de la pestaña  -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Ligando la hoja de estilos al documento -->
 </head>
 <body>
-    <h1>H1</h1>
-    <h2>H2</h2>
-    <h3>H3</h3>
+    <h1 id="h1_id" class="h1_class">H1</h1>
+    <h2 class="azul">H2</h2>
+    <h3 class="azul italica">H3</h3>
     <h4>H4</h4>
     <h5>H5</h5>
     <h6>H6</h6>
@@ -18,13 +19,22 @@
 
     <a href="http://google.com">Enlace</a>
 
-    <p>
+    <p class="parrafo">
         Etiqueta <strong>strong</strong> y etiqueta <em>énfasis</em>
     </p>
 
+    <strong>Otro Strong</strong>
+
+    <div class="contenedor">
+        <h4>H4 descendiente directo</h4>
+        <div>
+            <h4>H4 nieto</h4>
+        </div>
+    </div>
+
     <h2>Lista desordenada</h2>
     <ul>
-       <li>Elemento 1</li> 
+       <li class="azul">Elemento 1</li> 
        <li>Elemento 2</li>
        <li>Elemento 3</li>
     </ul>
@@ -108,6 +118,12 @@
         </div>
         <input type="submit" value="Enviar Formulario" />
     </form>
+    <h3 class="color">Estas son las propiedades de color</h3>
+    <p class="texto">
+        Estas son las propiedades de texto
+    </p>
+    <div class="tamano">
 
+    </div>
 </body>
 </html>
