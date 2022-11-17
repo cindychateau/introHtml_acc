@@ -83,3 +83,24 @@ input, textarea, select {
 }
 
 /*BACKGROUND*/
+.background {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+
+    background-color: aqua;
+    background-image: url('../images/gatito_small.jpg');
+    background-size: 100%; /*cover: Estira la imagen para que cubra todo el contendero VERTICALMENTE, 100%: Estira mi imagen horizontalmente*/
+    background-repeat: no-repeat; /*repeat-x, repeat-y, repeat, no-repeat*/
+}
+
+.box-model {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /*margin: aplica para todos los lados. margin-left, margin-right, margin-top, margin-bottom*/
+    margin: 10px auto; /*1 valor: todos los lados, 2 valores: ARRIBAyABAJO IZQyDER, 4: Ar, D, Ab, I*/
+    border: 2px solid black;
+    /*padding, padding-left, padding-right, padding-top, padding-bottom*/
+    padding: 25px;
+}
